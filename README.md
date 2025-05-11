@@ -16,14 +16,14 @@ A C# console app for chatting with Azure OpenAI models using the Azure.AI.Infere
    dotnet restore
    ```
 2. **Configure:**
-Create `SemanticKernelTestConsoleApp/appsettings.secret.json`:
-```json
-{
-   "ApiKey": "YOUR_AZURE_API_KEY_HERE",
-   "ModelName": "YOUR_MODEL_NAME_HERE",
-   "Endpoint": "https://YOUR_ENDPOINT_HERE"
-}
-```
+   Create `SemanticKernelTestConsoleApp/appsettings.secret.json`:
+   ```json
+   {
+      "ApiKey": "YOUR_AZURE_API_KEY_HERE",
+      "ModelName": "YOUR_MODEL_NAME_HERE",
+      "Endpoint": "https://YOUR_ENDPOINT_HERE"
+   }
+   ```
 3. **Run:**
    ```sh
    dotnet run --project SemanticKernelTestConsoleApp
