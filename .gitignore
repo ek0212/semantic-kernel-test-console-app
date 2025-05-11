@@ -1,1 +1,5 @@
 appsettings.secret.json 
+obj/
+bin/
+.vscode/
+net9.0/
