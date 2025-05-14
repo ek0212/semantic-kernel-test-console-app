@@ -1,4 +1,4 @@
-# Semantic Kernel Test Console App
+# Test Console App for Using Azure.AI.Inference SDK
 
 A C# console app for chatting with Azure OpenAI models using the Azure.AI.Inference SDK.
 
@@ -16,7 +16,7 @@ A C# console app for chatting with Azure OpenAI models using the Azure.AI.Infere
    dotnet restore
    ```
 2. **Configure:**
-   Create `ConsoleAppAzureAIInferenceSdk/appsettings.secret.json`:
+   Create `appsettings.secret.json`:
    ```json
    {
       "ApiKey": "YOUR_AZURE_API_KEY_HERE",
@@ -26,7 +26,7 @@ A C# console app for chatting with Azure OpenAI models using the Azure.AI.Infere
    ```
 3. **Run:**
    ```sh
-   dotnet run --project ConsoleAppAzureAIInferenceSdk
+   dotnet run
    ```
 
 ## Security

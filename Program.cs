@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using Azure;
+﻿using Azure;
 using Azure.AI.Inference;
-using Azure.Core;
-using System.IO;
 using System.Text.Json;
 
 class Program
